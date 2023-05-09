@@ -12,8 +12,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/newpage">New Page</a></li>
+                <li><a href="{{ route('welcome') }}">Home</a></li>
+                <li><a href="{{ route('newpage') }}">New Page</a></li>
             </ul>
         </nav>
     </header>

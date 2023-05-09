@@ -26,9 +26,9 @@ Route::get('/', function () {
 
 
     return view('welcome', $data);
-});
+})->name("welcome");
 
 Route::get("newpage", function () {
 
     return view("newpage", ["message" => "DAJE ROMA !"]);
-});
+})->name("newpage");

@@ -391,10 +391,17 @@
 </head>
 
 <body class="antialiased">
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/welcome">Home</a></li>
+                <li><a href="/newpage">New Page</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <h1>{{ $hello . $world }}</h1>
+        <h1>{{ $hello . ' ' . $world }}</h1>
     </main>
 </body>
 

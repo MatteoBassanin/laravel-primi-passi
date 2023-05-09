@@ -27,3 +27,8 @@ Route::get('/', function () {
 
     return view('welcome', $data);
 });
+
+Route::get("newpage", function () {
+
+    return view("newpage", ["message" => "DAJE ROMA !"]);
+});
